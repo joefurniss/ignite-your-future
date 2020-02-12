@@ -20,3 +20,39 @@ To start the server for development run:
 ```bash
 yarn dev
 ```
+
+## Snippets
+```js 
+
+(function(){
+
+    console.clear();
+
+    var cheese = 'Cheddar';
+
+    var cheeses = ['Cheddar', 'Brie', 'Gouda'];
+
+    var cheeseObject = {
+        name: 'Cheddar',
+        vegatarian: true,
+    }
+
+    var cheesesList = [
+        {
+            name: 'Cheddar',
+            vegetarian: true
+        },
+        {
+            name: 'Brie',
+            vegetarian: false,
+        },
+        {
+            name: 'Gouda',
+            vegetarian: false,
+        }
+    ];
+
+
+}());
+
+```
