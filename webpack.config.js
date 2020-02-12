@@ -47,9 +47,5 @@ module.exports = {
       filename: 'index.html',
       template: './public/index.html'
     }),
-    new HtmlWebpackPlugin({
-      filename: 'javascript-features.html',
-      template: './public/javascript-features.html'
-    })
   ]
 };
